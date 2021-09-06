@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Row, Col, Carousel, Container } from "react-bootstrap";
+import { Row, Col, Carousel } from "react-bootstrap";
 import Product from "../components/Product";
 const data = require("../assets/products.json");
 
