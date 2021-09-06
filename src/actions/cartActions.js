@@ -1,14 +1,15 @@
 import { CART_ADD_ITEM, CART_REMOVE_ITEM } from '../constants/cartConstants'
-const data = require("../assets/products.json");
+const products = require("../assets/products.json");
 // getState permits us to get the state from the store
 export const addToCart = (id, qty) => async (dispatch, getState) => {
     //const { data } = await axios.get(`/api/products/${id}`)
 
+    const { data } = products._id.$oid
 
     dispatch({
         type: CART_ADD_ITEM,
         payload: {
-            product: data._id,
+            product: data.id,
             name: data.name,
             image: data.image,
             price: data.price,

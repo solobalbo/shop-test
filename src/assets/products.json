@@ -5,8 +5,8 @@
   "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.windowsreport.com%2Fwp-content%2Fuploads%2F2019%2F09%2FFIFA-20-Starheads.jpg&f=1&nofb=1",
   "brand": "PS3",
   "price": 250,
-  "rating": 1,
-  "numReviews": 0,
+  "rating": 4.5,
+  "numReviews": 5,
   "isFeatured": true,
   "name": "FIFA 20",
   "description": "The most hard FIFA ever",
@@ -22,8 +22,8 @@
   "image": "https://www.backyardarea.com/images/products/BLCHE428213-4.jpg",
   "brand": "IKEA",
   "price": 350.9,
-  "rating": 5,
-  "numReviews": 0,
+  "rating": 3,
+  "numReviews": 10,
   "isFeatured": true,
   "name": "Garden Chair",
   "description": "beautiful chair for garden",
@@ -39,8 +39,8 @@
   "image": "https://ae01.alicdn.com/kf/HTB1mz0UKFXXXXbeaXXXq6xXFXXXp/3-Big-Size-Inflatable-Swimming-Water-Pool-Children-Home-Use-Portable-Outdoor-Bathtub-Playground-Zwembad-Piscina.jpg",
   "brand": "OBI",
   "price": 1350.9,
-  "rating": 5,
-  "numReviews": 0,
+  "rating": 4,
+  "numReviews": 6,
   "isFeatured": true,
   "name": "Swimming Pool",
   "description": "beautiful Swimming Pool for garden",
@@ -56,8 +56,8 @@
   "image": "https://static1.squarespace.com/static/5a51022ff43b55247f47ccfc/5a567854f9619a96fd6233bb/5b74446c40ec9afbc633e555/1534346950637/Husqvarna+545FR+%282%29.png?format=1500w",
   "brand": "OBI",
   "price": 490.9,
-  "rating": 5,
-  "numReviews": 0,
+  "rating": 3.5,
+  "numReviews": 3,
   "isFeatured": true,
   "name": "Grass Cut Machine",
   "description": "Grass Cut Machine for garden",
@@ -73,8 +73,8 @@
   "image": "https://www.lisnasurehome.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/d/a/daisy_m_1123_57b8884.jpg",
   "brand": "Mobilix",
   "price": 1000,
-  "rating": 5,
-  "numReviews": null,
+  "rating": 3,
+  "numReviews": 5,
   "isFeatured": true,
   "name": "Sofa",
   "description": "Big Sofa for living room",
@@ -83,4 +83,22 @@
   },
   "countInStock": 2,
   "__v": 0
-}]
+},{
+  "_id": {
+    "$oid": "5f15da13e520d44421ed8e1x"
+  },
+  "image": "https://www.kickmobiles.com/images/thumbs/0014082_apple-iphone-11-pro_808.jpeg",
+  "brand": "Apple",
+  "price": 599.99,
+  "rating": 4.0,
+  "numReviews": 17,
+  "isFeatured": true,
+  "name": "iPhone 11 Pro 256GB Memory",
+  "description": "Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life",
+  "category": {
+    "$oid": "5f15d5b2cb4a6642bddc0fe7"
+  },
+  "countInStock": 12,
+  "__v": 0
+}
+]
